@@ -165,6 +165,7 @@ body{
     text-align: right;
     margin-bottom: 60px;
     box-shadow: 0 0 6px var(--color_shadow);
+    
 }
 
 .card_img{
@@ -231,6 +232,8 @@ body{
     border-radius: 10px;
     position: relative;
     margin-bottom: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--black1);
 }
 
 .background_img{
@@ -271,6 +274,8 @@ body{
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--black1);
 }
 
 .testimony_img{
@@ -511,7 +516,7 @@ body{
 
 .contact{
     display: flex;
-    width: 100px;
+    width: 100%;
     flex-wrap: wrap;
     color: #fff;
 }
